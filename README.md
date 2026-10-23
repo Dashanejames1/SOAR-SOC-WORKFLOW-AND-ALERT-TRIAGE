@@ -20,7 +20,7 @@ This repository documents how a modern SOC operates and where automation fits. I
 
 ## 🔬 Tasks / Assessments Performed
 
-### 1. [Reviewing SOAR playbooks, what triggers them, and what they automate.]
+### 1. Reviewing SOAR playbooks, what triggers them, and what they automate.
 
 SOAR stands for Security Orchestration, Automation, and Response. A playbook is a predefined, automated workflow that executes a series of response actions when a specific trigger condition is met, removing the need for a human to manually perform repetitive Tier 1 tasks.
 
@@ -42,7 +42,7 @@ Exam tip: “500 alerts/day, analyst overwhelmed — what should they implement?
 **Findings:**
 
 
-### 2. [Reviewing MTTD (Mean Time to Detect) and MTTR (Mean Time to Respond).]
+### 2. Reviewing MTTD (Mean Time to Detect) and MTTR (Mean Time to Respond).
 
 These are the two primary metrics used to measure SOC effectiveness.
 
@@ -64,7 +64,7 @@ Exam tip: If a question asks how to reduce analyst response time or scale a SOC 
 **Findings:**
 
 
-### 3. [Review of alert triage: True positive, false positive, true negative, and false negative.]
+### 3. Review of alert triage: True positive, false positive, true negative, and false negative.
 
 Every alert a SOC analyst reviews falls into one of four categories:
 
@@ -87,7 +87,7 @@ The two dangerous ones: False Positives waste analyst time and cause alert fatig
 
 
 
-### 4. [Reviewing SOC tiers: Tier 1 = triage, Tier 2 = investigation, and Tier 3 = threat hunting.]
+### 4. Reviewing SOC tiers: Tier 1 = triage, Tier 2 = investigation, and Tier 3 = threat hunting.
 
 Tier 1 — Triage Analyst
 First responder to alerts. Reviews incoming alerts, classifies them (TP/FP), performs initial enrichment, and either closes false positives or escalates confirmed incidents to Tier 2. High volume, time-pressured work. SOAR automates most of this tier.
@@ -106,7 +106,7 @@ Exam tip: SOAR automates Tier 1 so human analysts can focus on Tier 2 investigat
 
 **Findings:** 
 
-### 5. [Designing a SOAR playbook for brute force: detect -> isolate -> ticket -> notify.]
+### 5. Designing a SOAR playbook for brute force: detect -> isolate -> ticket -> notify.
 
 Trigger: SIEM detects 10+ failed login attempts against a single account within 5 minutes.
 
